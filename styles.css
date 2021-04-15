@@ -22,7 +22,7 @@ header {
   padding: 0 50px;
   color: white;
 }
-@media (max-width: 1080px) {
+@media (max-width: 1024px) {
   .logo {
     margin-left: 26.6%;
   }
@@ -50,7 +50,7 @@ a {
   padding: 4px 15px;
   margin-right: 70px;
 }
-@media (max-width: 1080px) {
+@media (max-width: 1024px) {
   .Button {
     margin: 10px 70px 0 36.7%;
   }
