@@ -12,15 +12,20 @@ header {
   flex-wrap: wrap;
   padding: 20px 0;
   justify-content: space-between;
-  align-items: center;
   background: #121212;
 }
 
 .list,
 .logo,
 .Button {
+  margin: 20px 10px;
   padding: 0 50px;
   color: white;
+}
+@media (max-width: 1080px) {
+  .logo {
+    margin-left: 25.6%;
+  }
 }
 .list li {
   list-style: none;
@@ -37,6 +42,11 @@ a {
   border-radius: 40px;
   padding: 4px 15px;
   margin-right: 70px;
+}
+@media (max-width: 1080px) {
+  .Button {
+    margin: 10px 70px 0 35.6%;
+  }
 }
 .Button:hover {
   color: #bbe1fa;
@@ -59,14 +69,14 @@ a:hover {
 .container2 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   padding: 50px 10px;
 }
 .card {
   background: #121212;
   padding-bottom: 40px;
-  margin: 0 10px;
-  width: 600px;
+  margin: 20px 10px;
+  width: 400px;
   border-radius: 30px;
 }
 .card-title {
@@ -145,5 +155,4 @@ a:hover {
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
-/* font-family: 'Montserrat', sans-serif; */
-/* weights: 300 and 600 */
+
